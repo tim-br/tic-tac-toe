@@ -59,8 +59,7 @@
   (init-state [_]
     {:info (chan)
      :req-chan     (chan)
-     :pub-chan     (chan)
-     :notif-chan   (pub pub-chan :topic)})
+     :pub-chan     (chan)})
 
   (will-mount [_]
       (let [info (om/get-state owner :info)]
