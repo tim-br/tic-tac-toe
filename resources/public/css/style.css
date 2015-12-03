@@ -1,0 +1,41 @@
+
+
+h1 {
+  text-decoration: underline;
+}
+
+.cell
+{
+  height:60px;
+  text-align:center;
+  vertical-align:middle;
+  width:60px;
+}
+
+
+.cell#brown
+{
+  background: #800000;
+}
+
+.cell#light-brown
+{
+  background: #DEB887;
+}
+
+.cell#light-blue
+{
+  background: #b3d8ff;
+}
+
+
+#chess-board
+{
+  margin-left: 50px;
+}
+
+.space
+{
+  height:60px;
+}
+
